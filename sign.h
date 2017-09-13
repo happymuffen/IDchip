@@ -2,7 +2,7 @@
 #include <openssl/pem.h>
 #include <stdio.h>
 
-const char* priv=
+const RSA* priv=
 "-----BEGIN RSA PRIVATE KEY-----
 MIIJKAIBAAKCAgEAy3mjFdOZt2tLLzzo3MWO02T6+8ePMV2QohEb86ShD7O9/EY8
 7XOh+2SteW/JPDxapZ+8bApcoPef55dVXYhnK1FDkKT5agCG/ogp4EaFGukffoOu
